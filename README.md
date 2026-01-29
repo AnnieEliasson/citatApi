@@ -1,8 +1,8 @@
-## QuoteAPI - Random Weather Quotes
+# <span style="color:grey; text-shadow: 2px 2px 2px black">QuoteAPI - Random Weather Quotes</span>
 
 ### 🎲 Random quote
 
-GET /api/quote
+<span style="color:grey; text-shadow: 2px 2px 2px black">- **GET** /api/quote</span>
 
 ```
 {
@@ -10,10 +10,11 @@ GET /api/quote
   "text": "Efter regn kommer… mer regn. Men också erfarenhet."
 }
 ```
+---
 
 ### 📚 All quotes
 
-GET /api/quote/all
+<span style="color:grey; text-shadow: 2px 2px 2px black">- **GET** /api/quote/all</span>
 
 ```
 [
@@ -24,9 +25,10 @@ GET /api/quote/all
     ...
 ]
 ```
+---
 ### 🔎 Quote by Id
 
-GET /api/quote/1
+<span style="color:grey; text-shadow: 2px 2px 2px black">- **GET** /api/quote/1</span>
 
 ```
 {
@@ -34,10 +36,11 @@ GET /api/quote/1
   "text": "Efter regn kommer… mer regn. Men också erfarenhet."
 }
 ```
+---
 
 ### 🔍 Search quote
 
-POST /api/quote/search?s=regn
+<span style="color:grey; text-shadow: 2px 2px 2px black">- **POST** /api/quote/search?s=regn<\span>
 
 ```
 [
@@ -51,3 +54,4 @@ POST /api/quote/search?s=regn
   }
 ]
 ```
+---
