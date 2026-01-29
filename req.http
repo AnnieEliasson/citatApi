@@ -1,2 +1,5 @@
 get http://localhost:5212/api/quote
 
+###
+
+get http://localhost:5212/api/quote/all

@@ -8,3 +8,15 @@ get /api/quote
   "text": "Efter regn kommer… mer regn. Men också erfarenhet."
 }
 ```
+
+get /api/quote/all
+
+```
+[
+    {
+        "id": 1,
+        "text": "Efter regn kommer… mer regn. Men också erfarenhet."
+    },
+    ...
+]
+```

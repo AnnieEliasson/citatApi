@@ -23,4 +23,11 @@ public class QuoteController(AppDbContext _db) : ControllerBase
         return Ok(quote);
     }
 
+    [HttpGet("all")]
+    public async Task<ActionResult<List<Quote>>> GetAllQuotes()
+    {
+
+        return Ok(await _db.Quotes.ToListAsync());
+    }
+
 }
