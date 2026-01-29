@@ -40,7 +40,7 @@
 
 ### 🔍 Search quote
 
-<span style="color:grey; text-shadow: 2px 2px 2px black">- **POST** /api/quote/search?s=regn<\span>
+<span style="color:grey; text-shadow: 2px 2px 2px black">- **POST** /api/quote/search?s=regn </span>
 
 ```
 [
