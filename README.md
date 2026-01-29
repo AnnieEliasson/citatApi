@@ -4,7 +4,7 @@
 
  - **GET** /api/quote
 
-```
+```json
 {
   "id": 1,
   "text": "Efter regn kommer… mer regn. Men också erfarenhet."
@@ -16,7 +16,7 @@
 
  - **GET** /api/quote/all
 
-```
+```json
 [
     {
         "id": 1,
@@ -30,7 +30,7 @@
 
 - **GET** /api/quote/1
 
-```
+```json
 {
   "id": 1,
   "text": "Efter regn kommer… mer regn. Men också erfarenhet."
@@ -42,7 +42,7 @@
 
 - **POST** /api/quote/search?s=regn
 
-```
+```json
 [
   {
     "id": 1,
