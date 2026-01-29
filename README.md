@@ -1,8 +1,8 @@
-# <span style="color:grey; text-shadow: 2px 2px 2px black">QuoteAPI - Random Weather Quotes</span>
+# QuoteAPI - Random Weather Quotes
 
 ### 🎲 Random quote
 
-<span style="color:grey; text-shadow: 2px 2px 2px black">- **GET** /api/quote</span>
+ - **GET** /api/quote
 
 ```
 {
@@ -14,7 +14,7 @@
 
 ### 📚 All quotes
 
-<span style="color:grey; text-shadow: 2px 2px 2px black">- **GET** /api/quote/all</span>
+ - **GET** /api/quote/all
 
 ```
 [
@@ -28,7 +28,7 @@
 ---
 ### 🔎 Quote by Id
 
-<span style="color:grey; text-shadow: 2px 2px 2px black">- **GET** /api/quote/1</span>
+- **GET** /api/quote/1
 
 ```
 {
@@ -40,7 +40,7 @@
 
 ### 🔍 Search quote
 
-<span style="color:grey; text-shadow: 2px 2px 2px black">- **POST** /api/quote/search?s=regn </span>
+- **POST** /api/quote/search?s=regn
 
 ```
 [
