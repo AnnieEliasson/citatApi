@@ -3,3 +3,12 @@ get http://localhost:5212/api/quote
 ###
 
 get http://localhost:5212/api/quote/all
+
+###
+
+get http://localhost:5212/api/quote/1
+
+###
+
+post http://localhost:5212/api/quote/search?s=regn
+Content-Type: application/json
