@@ -4,7 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 // Lägg till den DbContext ni skapar för er databas här
-builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlite("Data Source=app.db"));
+builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlite("Data Source=Data/app.db"));
 
 //Låt detta vara kvar! Utan denna inställning kommer inte websidan att få access till API:et.
 // Läs mer här: https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS
