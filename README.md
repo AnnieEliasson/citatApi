@@ -1,8 +1,8 @@
 ## QuoteAPI - Random Weather Quotes
 
-- Random quote
+### Random quote
 
-get /api/quote
+GET /api/quote
 
 ```
 {
@@ -11,9 +11,9 @@ get /api/quote
 }
 ```
 
-- All quotes
+### All quotes
 
-get /api/quote/all
+GET /api/quote/all
 
 ```
 [
@@ -24,9 +24,9 @@ get /api/quote/all
     ...
 ]
 ```
-- Quote by Id
+### Quote by Id
 
-get /api/quote/1
+GET /api/quote/1
 
 ```
 {
@@ -35,9 +35,9 @@ get /api/quote/1
 }
 ```
 
-- Search quote
+### Search quote
 
-post /api/quote/search?s=regn
+POST /api/quote/search?s=regn
 
 ```
 [
