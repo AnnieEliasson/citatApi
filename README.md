@@ -1,6 +1,6 @@
 ## QuoteAPI - Random Weather Quotes
 
-### Random quote
+### 🎲 Random quote
 
 GET /api/quote
 
@@ -11,7 +11,7 @@ GET /api/quote
 }
 ```
 
-### All quotes
+### 📚 All quotes
 
 GET /api/quote/all
 
@@ -24,7 +24,7 @@ GET /api/quote/all
     ...
 ]
 ```
-### Quote by Id
+### 🔎 Quote by Id
 
 GET /api/quote/1
 
@@ -35,7 +35,7 @@ GET /api/quote/1
 }
 ```
 
-### Search quote
+### 🔍 Search quote
 
 POST /api/quote/search?s=regn
 
