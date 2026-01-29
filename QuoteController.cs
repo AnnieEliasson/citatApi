@@ -7,7 +7,7 @@ public class QuoteController(AppDbContext _db) : ControllerBase
 {
 
     [HttpGet]
-    public async Task<ActionResult<string>> GetQuote()
+    public async Task<ActionResult<Quote>> GetQuote()
     {
         int qoutesLength = await _db.Quotes.CountAsync();
         int randomId = Random.Shared.Next(1, qoutesLength);
@@ -20,7 +20,7 @@ public class QuoteController(AppDbContext _db) : ControllerBase
             return NotFound();
         }
 
-        return Ok(quote.Text);
+        return Ok(quote);
     }
 
 }
